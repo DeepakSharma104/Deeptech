@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepTech Online Institution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Enhanced Header with Search Bar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">DeepTech</div>
+            <div class="search-bar">
+                <input type="search" placeholder="Search courses...">
+                <button type="submit"><i class="search-icon">🔍</i></button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#teachers">Teachers</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="signinbtn"><a href="signin.php" class="btn">Sign In</a></li>
+                <li><a href="register.html" class="btn">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Enhanced Hero Section with Video Background -->
+    <section id="home" class="hero">
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="background.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to DeepTech</h1>
+            <p>Empowering technology enthusiasts with world-class education.</p>
+            <a href="#courses" class="btn">Explore Courses</a>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="count">0K+</span>
+                    <span class="label">Students</span>
+                </div>
+                <div class="stat-item">
+                    <span class="count">0+</span>
+                    <span class="label">Courses</span>
+                </div>
+                <div class="stat-item">
+                    <span class="count">0%</span>
+                    <span class="label">Success Rate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced About Section with Timeline -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>DeepTech is an online institution dedicated to teaching advanced tech skills with practical applications.</p>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="year">2020</div>
+                <div class="event">Founded DeepTech</div>
+            </div>
+            <div class="timeline-item">
+                <div class="year">2022</div>
+                <div class="event">Reached 0+ Students</div>
+            </div>
+            <div class="timeline-item">
+                <div class="year">2024</div>
+                <div class="event">Launched Advanced AI Programs</div>
+            </div>
+        </div>
+    </section ```html
+    <!-- Enhanced Courses Section with Filtering -->
+    <section id="courses" class="courses">
+        <h2>Our Courses</h2>
+        <div class="course-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="beginner">Beginner</button>
+            <button class="filter-btn" data-filter="intermediate">Intermediate</button>
+            <button class="filter-btn" data-filter="advanced">Advanced</button>
+        </div>
+        <div class="course-list">
+            <div class="course-item" data-level="beginner">
+                <div class="course-image">
+                    <img src="image/web.jpg" alt="Web Development">
+                    <span class="course-badge">Bestseller</span>
+                </div>
+                <h3>Web Development</h3>
+                <p>Learn to build responsive and professional websites.</p>
+                <div class="course-meta">
+                    <span>12 weeks</span>
+                    <span>4.8 ⭐</span>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="course-item" data-level="advanced">
+                <div class="course-image">
+                    <img src="image/images.png" alt="Data Science">
+                    <span class="course-badge">New</span>
+                </div>
+                <h3>Data Science</h3>
+                <p>Master data analysis, machine learning, and AI techniques.</p>
+                <div class="course-meta">
+                    <span>16 weeks</span>
+                    <span>4.9 ⭐</span>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="course-item" data-level="intermediate">
+                <div class="course-image">
+                    <img src="image/download.png" alt="Cybersecurity">
+                </div>
+                <h3>Cybersecurity</h3>
+                <p>Understand how to protect systems and networks.</p>
+                <div class="course-meta">
+                    <span>14 weeks</span>
+                    <span>4.7 ⭐</span>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Enhanced Teachers Section -->
+    <section id="teachers" class="teachers">
+        <h2>Meet Our Teachers</h2>
+        <p>Our experienced instructors are dedicated to providing the best learning experience.</p>
+        <div class="teacher-list">
+            <div class="teacher-item">
+                <img style="height: 200px; width: 200px;" src="image/me.jpg" alt="John Doe" class="teacher-image">
+                <h3>DEEPAk SHARMA</h3>
+                <p>Expert in Web Development and Design.</p>
+            </div>
+            <div class="teacher-item">
+                <img src="im" alt="WAJHAT" class="teacher-image">
+                <h3>WAJHAT ALI</h3>
+                <p>Data Scientist with a passion for teaching.</p>
+            </div>
+            
+            <div class="teacher-item">
+                <img style="height: 200px; width: 200px" src="image/WhatsApp Image 2024-01-16 at 12.47.49_87947d87.jpg" alt="KIRSHAN" class="teacher-image">
+                <h3>KIRSHAN</h3>
+                <p>NETWORKING .</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Contact Section with Map -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="icon">📍</i>
+                    <p>Hyderabad </p>
+                </div>
+                <div class="info-item">
+                    <i class="icon">📧</i>
+                    <p>deeptech104@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="icon">📞</i>
+                    <p>+923198193590</p>
+                </div>
+            </div>
+            <form action="contact.php" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <select name="subject">
+                    <option value="">Select Subject</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="courses">Course Information</option>
+ <option value="support">Technical Support</option>
+                </select>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Enhanced Footer with Newsletter -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="text-center mt-4 social-media">
+                <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><img
+                        src="socialmida/icons8-facebook-logo.svg" alt="Facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><img
+                        src="socialmida/icons8-instagram-logo.svg" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/deepak-sharma-615212287/" target="_blank"
+                    aria-label="LinkedIn"><img src="socialmida/icons8-linkedin.svg" alt="LinkedIn"></a>
+                <a href="https://www.youtube.com/@DeepTech-r8w" target="_blank" aria-label="YouTube"><img
+                        src="socialmida/icons8-youtube (1).svg" alt="YouTube"></a>
+                <a href="https://wa.me/+923432527807" target="_blank" aria-label="WhatsApp"><img
+                        src="socialmida/icons8-whatsapp.svg" alt="WhatsApp"></a>
+                <a href="Deeptech104"><img style="height: 50px;" width="50px" src="socialmida/github.png" alt=""></a>    
+                <p>&copy; 2025 DeepTech. All rights reserved.</p>    
+            </div>
+    
+        </div>
+       
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Navigation active state
+            const navLinks = document.querySelectorAll('.nav-links a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    document.querySelector('.active')?.classList.remove('active');
+                    link.classList.add('active');
+                });
+            });
+
+            // Course filtering
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const courseItems = document.querySelectorAll('.course-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const filter = button.dataset.filter;
+                    
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+
+                    courseItems.forEach(item => {
+                        if (filter === 'all' || item.dataset.level === filter) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Animate stats on scroll
+            const stats = document.querySelectorAll('.count');
+            const observerOptions = {
+                threshold: 0.5
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateValue(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            stats.forEach(stat => observer.observe(stat));
+
+            function animateValue(element) {
+                const value = parseInt(element.textContent);
+                let current = 0;
+                const increment = value / 50;
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= value) {
+                        element.textContent = value + (element.textContent.includes('+') ? '+' : '');
+                        clearInterval(timer);
+                    } else {
+                        element.textContent = Math.floor(current) + (element.textContent.includes('+') ? '+' : '');
+                    }
+                }, 20);
+            }
+        });
+    </script>
+</body>
+</html>
